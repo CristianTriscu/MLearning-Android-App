@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="quiz_questions">
+        <item>Q 1 Which loop type would you use to repeat a task a set number of times?</item>
+        <item>Q 2 What is the name of the process by which two or more strings are joined together?</item>
+        <item>Q 3 Which keyword would you use to break out of a loop?</item>
+        <item>Q 4 What is it called when an instance of a class is also an instance of its superclass?</item>
+        <item>Q 5 Which package needs to be imported so that you can accept user input?</item>
+        <item>Q 6 Which method is used in every Java program?</item>
+        <item>Q 7 Which of the following can be used to access the first element of an array named arrOne?</item>
+        <item>Q 8 What kind of data will this variable store - char fName;</item>
+        <item>Q 9 What will be the output of this code?\n\n
+String aString = \"Crayons are great!\";\n
+System.out.print(aString.charAt(8))</item>
+        <item>Q 10 Which of the following would you use to test a variable for five different values?</item>
+        <item>Q 1 What is an activity in Android? </item>
+        <item>Q 2 What is Manifest.xml in android?</item>
+        <item>Q 3 On which thread broadcast receivers will work in android?</item>
+        <item>Q 4 What is the use of content provider in android?</item>
+        <item>Q 5 What are the wake locks available in android?</item>
+        <item>Q 6 What is LastKnownLocation in android?</item>
+        <item>Q 7 Data can be read from local source XML in android through</item>
+        <item>Q 8 What is sandbox in android?</item>
+        <item>Q 9 Is it possible activity without UI in android?</item>
+        <item>Q 10 Can a class be immutable in android?</item>
+        <item>Q 1 Which one of the following is a correct XML syntax:</item>
+        <item>Q 2 How would you set the height of a view from an XML file\?</item>
+        <item>Q 3 Which one of the following is an existing type of layout\?</item>
+        <item>Q 4 Which one of the following layouts displays the child views in relative positions?</item>
+        <item>Q 5 What method would you use to return the height of a view?</item>
+        <item>Q 6 Which layout would you choose to display a web page?</item>
+        <item>Q 7 How would you set a view\'s text to a string resource in XML file?</item>
+        <item>Q 8 How is an instance of a view object created?</item>
+        <item>Q 9 What does XML stand for?</item>
+        <item>Q 10 What is the name of the XML file that every app project must have?</item>
+    </string-array>
+</resources>

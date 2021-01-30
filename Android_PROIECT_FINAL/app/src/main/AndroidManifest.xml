@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.alexc.dam_proiect">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/purple_book"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/purple_book"
+        android:supportsRtl="true"
+        android:theme="@style/Theme2">
+        <activity android:name=".Statistics"></activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LessonActivity" />
+        <activity android:name=".XmlCourseActivity" />
+        <activity android:name=".AndroidCourseActivity" />
+        <activity android:name=".JavaCourseActivity" />
+        <activity android:name=".FeedBackActivity" />
+        <activity android:name=".Settings" />
+        <activity android:name=".ReminderList" />
+        <activity android:name=".Reminders" />
+        <activity android:name=".extractAdvicesJSON" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ReminderAdapter"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

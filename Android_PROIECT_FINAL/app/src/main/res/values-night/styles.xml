@@ -1,0 +1,14 @@
+<resources>
+
+    <style name="Theme2" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">#07020D</item>
+        <item name="colorPrimaryDark">#07020D</item>
+        <item name="colorAccent">#00897B</item>
+        <item name="colorButtonNormal">#00897B</item>
+        <item name="android:textColor">#F1E9DB</item>
+
+
+    </style>
+
+
+</resources>

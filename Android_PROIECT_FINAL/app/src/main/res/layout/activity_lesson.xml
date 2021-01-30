@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LessonActivity">
+
+    <TextView
+        android:id="@+id/tvLessonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lesson"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <TextView
+        android:id="@+id/tvContent"
+        android:layout_width="367dp"
+        android:layout_height="369dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorView"
+        android:gravity="center"
+        android:text="@string/content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLessonText" />
+
+    <Button
+        android:id="@+id/lessonBackBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rgAnswers" />
+
+    <Button
+        android:id="@+id/lessonNextBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="@string/next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rgAnswers" />
+
+    <TextView
+        android:id="@+id/tvLessonStage"
+        android:layout_width="91dp"
+        android:layout_height="24dp"
+        android:gravity="center"
+        android:text="@string/_1_10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rgAnswers"
+        app:layout_constraintVertical_bias="0.097" />
+
+    <RadioGroup
+        android:id="@+id/rgAnswers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="23dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvContent">
+
+        <RadioButton
+            android:id="@+id/rgAnswer1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="M" />
+
+        <RadioButton
+            android:id="@+id/rgAnswer2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="F" />
+
+        <RadioButton
+            android:id="@+id/rgAnswer3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="X" />
+    </RadioGroup>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AndroidCourseActivity">
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="355dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/Theme2colorBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"></View>
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="355dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/Theme2colorBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view4"></View>
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="355dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/Theme2colorBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view6"></View>
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="352dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/Theme2colorBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view7"
+        app:layout_constraintVertical_bias="0.0"></View>
+
+    <TextView
+        android:id="@+id/tvAndroid1"
+        android:layout_width="130dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="124dp"
+        android:text="@string/lesson_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvAndroid2"
+        android:layout_width="130dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="72dp"
+        android:text="@string/lesson_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pbAndroid1" />
+
+    <ProgressBar
+        android:id="@+id/pbAndroid2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAndroid2" />
+
+    <ProgressBar
+        android:id="@+id/pbAndroidQuiz"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAndroidQuiz" />
+
+    <TextView
+        android:id="@+id/tvAndroidQuiz"
+        android:layout_width="130dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="84dp"
+        android:text="@string/quiz"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pbAndroid2" />
+
+    <ProgressBar
+        android:id="@+id/pbAndroid1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAndroid1" />
+
+    <Button
+        android:id="@+id/startAndroid1Btn"
+        android:layout_width="95dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="116dp"
+        android:text="@string/start"
+        app:layout_constraintStart_toEndOf="@+id/tvAndroid1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/resetAndroid1Btn"
+        android:layout_width="95dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/reset"
+        app:layout_constraintStart_toEndOf="@+id/pbAndroid1"
+        app:layout_constraintTop_toBottomOf="@+id/startAndroid1Btn" />
+
+    <Button
+        android:id="@+id/startAndroid2Btn"
+        android:layout_width="95dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/start"
+        app:layout_constraintStart_toEndOf="@+id/tvAndroid2"
+        app:layout_constraintTop_toBottomOf="@+id/resetAndroid1Btn" />
+
+    <Button
+        android:id="@+id/resetAndroid2Btn"
+        android:layout_width="95dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/reset"
+        app:layout_constraintStart_toEndOf="@+id/pbAndroid2"
+        app:layout_constraintTop_toBottomOf="@+id/startAndroid2Btn" />
+
+    <Button
+        android:id="@+id/startAndroidQuizBtn"
+        android:layout_width="95dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="72dp"
+        android:text="@string/start"
+        app:layout_constraintStart_toEndOf="@+id/tvAndroidQuiz"
+        app:layout_constraintTop_toBottomOf="@+id/resetAndroid2Btn" />
+
+    <Button
+        android:id="@+id/resetAndroidQuizBtn"
+        android:layout_width="95dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/reset"
+        app:layout_constraintStart_toEndOf="@+id/pbAndroidQuiz"
+        app:layout_constraintTop_toBottomOf="@+id/startAndroidQuizBtn" />
+
+    <ProgressBar
+        android:id="@+id/pbAndroidTotal"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="205dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAndroidProgress" />
+
+    <Button
+        android:id="@+id/resetAndroidTotalBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/reset"
+        app:layout_constraintStart_toEndOf="@+id/tvAndroidProgress"
+        app:layout_constraintTop_toBottomOf="@+id/resetAndroidQuizBtn" />
+
+    <TextView
+        android:id="@+id/tvAndroidProgress"
+        android:layout_width="130dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/android_progress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pbAndroidQuiz" />
+
+    <TextView
+        android:id="@+id/tvTextAndroid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/android_course"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

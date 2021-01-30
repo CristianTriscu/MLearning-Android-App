@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JavaCourseActivity">
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="355dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/Theme2colorBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"></View>
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="355dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/Theme2colorBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view4"></View>
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="355dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/Theme2colorBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view6"></View>
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="352dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/Theme2colorBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view7"
+        app:layout_constraintVertical_bias="0.0"></View>
+
+    <TextView
+        android:id="@+id/tvJava1"
+        android:layout_width="130dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="124dp"
+        android:text="@string/lesson_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvJava2"
+        android:layout_width="130dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="72dp"
+        android:text="@string/lesson_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pbJava1" />
+
+    <ProgressBar
+        android:id="@+id/pbJava2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvJava2" />
+
+    <ProgressBar
+        android:id="@+id/pbJavaQuiz"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvJavaQuiz" />
+
+    <TextView
+        android:id="@+id/tvJavaQuiz"
+        android:layout_width="130dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="84dp"
+        android:text="@string/quiz"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pbJava2" />
+
+    <ProgressBar
+        android:id="@+id/pbJava1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvJava1" />
+
+    <Button
+        android:id="@+id/startJava1Btn"
+        android:layout_width="95dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="116dp"
+        android:text="@string/start"
+        app:layout_constraintStart_toEndOf="@+id/tvJava1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/resetJava1Btn"
+        android:layout_width="95dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/reset"
+        app:layout_constraintStart_toEndOf="@+id/pbJava1"
+        app:layout_constraintTop_toBottomOf="@+id/startJava1Btn" />
+
+    <Button
+        android:id="@+id/startJava2Btn"
+        android:layout_width="95dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/start"
+        app:layout_constraintStart_toEndOf="@+id/tvJava2"
+        app:layout_constraintTop_toBottomOf="@+id/resetJava1Btn" />
+
+    <Button
+        android:id="@+id/resetJava2Btn"
+        android:layout_width="95dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/reset"
+        app:layout_constraintStart_toEndOf="@+id/pbJava2"
+        app:layout_constraintTop_toBottomOf="@+id/startJava2Btn" />
+
+    <Button
+        android:id="@+id/startJavaQuizBtn"
+        android:layout_width="95dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="72dp"
+        android:text="@string/start"
+        app:layout_constraintStart_toEndOf="@+id/tvJavaQuiz"
+        app:layout_constraintTop_toBottomOf="@+id/resetJava2Btn" />
+
+    <Button
+        android:id="@+id/resetJavaQuizBtn"
+        android:layout_width="95dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/reset"
+        app:layout_constraintStart_toEndOf="@+id/pbJavaQuiz"
+        app:layout_constraintTop_toBottomOf="@+id/startJavaQuizBtn" />
+
+    <ProgressBar
+        android:id="@+id/pbJavaTotal"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="205dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvJavaProgress" />
+
+    <Button
+        android:id="@+id/resetJavaTotalBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/reset"
+        app:layout_constraintStart_toEndOf="@+id/tvJavaProgress"
+        app:layout_constraintTop_toBottomOf="@+id/resetJavaQuizBtn" />
+
+    <TextView
+        android:id="@+id/tvJavaProgress"
+        android:layout_width="130dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/java_progress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pbJavaQuiz" />
+
+    <TextView
+        android:id="@+id/tvTextJava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/java_course"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057" />
+</androidx.constraintlayout.widget.ConstraintLayout>

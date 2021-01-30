@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1032549442430",
+    "project_id": "learndroid-9bc33",
+    "storage_bucket": "learndroid-9bc33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032549442430:android:3e3e0e64d737279da0492f",
+        "android_client_info": {
+          "package_name": "com.alexc.dam_proiect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032549442430-ttbkrrtqql4md0tji731m753oebprl6n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf0ixPD9B6RlCxjQmdNBxWyBdu8A87aZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032549442430-ttbkrrtqql4md0tji731m753oebprl6n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

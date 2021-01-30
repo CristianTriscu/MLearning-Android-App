@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="answers_strings">
+        <item>1. for</item>
+        <item>2. while</item>
+        <item>3. switch</item>
+        <item>1. Method</item>
+        <item>2. Concatenation</item>
+        <item>3. Association</item>
+        <item>1. while</item>
+        <item>2. continue</item>
+        <item>3. break</item>
+        <item>1. Polymorphism</item>
+        <item>2. Instantiation</item>
+        <item>3. Encapsulation</item>
+        <item>1. java.awt</item>
+        <item>2. java.io</item>
+        <item>3. java.util</item>
+        <item>1. System.out.println()</item>
+        <item>2. type()</item>
+        <item>3. main()</item>
+        <item>1. arrOne[0]</item>
+        <item>2. arrOne[1]</item>
+        <item>3. arrOne[3]</item>
+        <item>1. Text string</item>
+        <item>2. A single character</item>
+        <item>3. Numeric</item>
+        <item>1. r</item>
+        <item>2. s</item>
+        <item>3. a</item>
+        <item>1. switch statement</item>
+        <item>2. if statement</item>
+        <item>3. else-if statement</item>
+        <item>1. Manage the Application content</item>
+        <item>2. Activity performs the actions on the screen</item>
+        <item>3. Screen UI</item>
+        <item>1. It has information about layout in an application</item>
+        <item>2. It has the information about activities in an application</item>
+        <item>3. It has all the information about an application</item>
+        <item>1. Main Thread</item>
+        <item>2. Worker Thread</item>
+        <item>3. Activity Thread</item>
+        <item>1. To send the data from an application to another application</item>
+        <item>2. To share the data between applications</item>
+        <item>3. To store the data in a database</item>
+        <item>1. PARTIAL_WAKE_LOCK</item>
+        <item>2. SCREEN_BRIGHT_WAKE_LOCK</item>
+        <item>3. FULL_WAKE_LOCK</item>
+        <item>1. To find the last known location of a phone</item>
+        <item>2. To find the last location of a phone</item>
+        <item>3. To find known location of a phone</item>
+        <item>1. XML pull parsing</item>
+        <item>2. XML resource parser</item>
+        <item>3. DOM parsing</item>
+        <item>1. Android Box</item>
+        <item>2. Android development tool kit</item>
+        <item>3. Each application runs securely in sandbox without interrupting another process</item>
+        <item>1. Yes,it\'s possible</item>
+        <item>2. No, it\'s not possible</item>
+        <item>3. We can\'t say</item>
+        <item>1. No, it can\'t</item>
+        <item>2. Yes, Class can be immutable</item>
+        <item>3. Can\'t make the class as final class</item>
+        <item>1. android:id=\"\@id/button1\"</item>
+        <item>2. xml:id=\"\@+id/button1\"</item>
+        <item>3. android:id=\"\@+id/button1\"</item>
+        <item>1. android:layout_height=\"100dp\"</item>
+        <item>2. xml:layout_height=\"100dp\"</item>
+        <item>3. android:height=100dp</item>
+        <item>1. DirectLayout</item>
+        <item>2. RelativeLayout</item>
+        <item>3. SimpleLayout</item>
+        <item>1. TableLayout</item>
+        <item>2. ConstraintLayout</item>
+        <item>3. RelativeLayout</item>
+        <item>1. getHeight()</item>
+        <item>2. height()</item>
+        <item>3. findHeight()</item>
+        <item>1. LinearLayout</item>
+        <item>2. WebView</item>
+        <item>3. RelativeLayout</item>
+        <item>1. android:text=\@string_tag</item>
+        <item>2. android:xml=\"\@string/string_tag\"</item>
+        <item>3. android:text=\"\@string/string_tag\"</item>
+        <item>1. View view = (View) findViewById(R.id.view_id);</item>
+        <item>2. new View(R.id.view_id);</item>
+        <item>3. View view = View(view_id);</item>
+        <item>1. eXtensible Mega Language</item>
+        <item>2. eXtensible Markup Language</item>
+        <item>3. eXtensible Markup Library</item>
+        <item>1. manifest_android.xml</item>
+        <item>2. AndroidRes.xml</item>
+        <item>3. AndroidManifest.xml</item>
+    </string-array>
+</resources>
